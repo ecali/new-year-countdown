@@ -31,7 +31,7 @@ The build is minified and the filenames include the hashes.
 - [ ] Auto Update for years
 - [ ] Add Christmas countdown 
 - [ ] Navbar to chenge countdown
-- [ ] Add Simple footer
+- [x] Add Simple footer
 - [ ] Add custom Countdown
 
 ## `Author`
