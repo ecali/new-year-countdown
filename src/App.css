@@ -49,8 +49,8 @@ body{
   justify-content: space-around;
   gap: 10px
 }
-.box {
-  width: 20vmin;
+.box {
+  width: 28vmin;
   height: 29vmin;
   display: flex;
   flex-direction: column;
