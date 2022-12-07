@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Box } from "./components/Box";
+import { Footer } from "./components/Footer";
 import { Props } from "./utils/Model";
 
 function App() {
@@ -65,6 +66,7 @@ function App() {
           )}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
