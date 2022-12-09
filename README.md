@@ -28,11 +28,11 @@ The build is minified and the filenames include the hashes.
 
 
 ## `for the future`
-- [ ] Auto Update for years
-- [ ] Add Christmas countdown 
-- [ ] Navbar to chenge countdown
+- [x] Auto Update for years
+- [x] Add Christmas countdown 
+- [x] Navbar to change countdown
 - [x] Add Simple footer
-- [ ] Add custom Countdown
+- [ ] Add custom Countdown (?)
 
 ## `Author`
 
