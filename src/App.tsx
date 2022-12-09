@@ -1,18 +1,18 @@
+import { useState } from "react";
 import "./App.css";
 import { Boxes } from "./components/Boxes";
 import { Footer } from "./components/Footer";
+import { Heading } from "./components/Heading";
 
 function App() {
+  const [date, setDate] = useState<Date>(new Date(2023, 0, 1, 0, 0));
 
   return (
     <div className="App">
       <div className="wrapper">
-        <div className="heading">
-          <h3>Countdown Till</h3>
-          <h1>2023</h1>
-        </div>
+        <Heading date={date} />
         <div className="contdown">
-          <Boxes endDate={new Date(2023, 0, 1, 0, 0)} />
+          <Boxes endDate={date} />
         </div>
       </div>
       <Footer />
