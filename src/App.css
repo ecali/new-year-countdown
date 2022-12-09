@@ -99,3 +99,42 @@ div.footer {
   text-align: center;
   margin-bottom: 15px;
 }
+
+div.navbar {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  flex-direction: column;
+}
+div.navbar-year,
+div.navbar-xmas {
+  margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+button.button-change {
+  background: #222;
+  height: 50px;
+  min-width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 20px;
+  font-family: "Cookie", cursive;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  button.button-change {
+    min-width: 100px !important;
+  }
+}
