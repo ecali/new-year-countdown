@@ -3,6 +3,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/672a23a1-cf4a-44e9-8c3d-ee8e46f15e31/deploy-status)](https://app.netlify.com/sites/new-cali-countdown/deploys)
 
+[![Preview](https://img.shields.io/static/v1?label=Preview&message=VIEW&color=green)](https://new-cali-countdown.netlify.app/)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and Typescript.
