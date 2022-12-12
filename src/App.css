@@ -102,20 +102,20 @@ div.footer {
 
 div.navbar {
   display: flex;
-  height: 100px;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-evenly;
 }
 div.navbar-year,
 div.navbar-xmas {
   margin: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 button.button-change {
   background: #222;
-  height: 50px;
   min-width: 150px;
   border: none;
   border-radius: 10px;
@@ -129,12 +129,11 @@ button.button-change {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  padding-top: 5px;
+  font-size: 18px;
 }
-
 
 @media only screen and (max-width: 600px) {
   button.button-change {
-    min-width: 100px !important;
+    min-width: 80px !important;
   }
 }
