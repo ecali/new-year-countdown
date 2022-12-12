@@ -135,5 +135,17 @@ button.button-change {
 @media only screen and (max-width: 600px) {
   button.button-change {
     min-width: 80px !important;
+    border-radius: 0;
+    border-right: solid 1px;
+  }
+  button.button-change:last-child {
+    border-radius: 0 10px 10px 0;
+    border-right: none;
+  }
+  button.button-change:first-child {
+    border-radius:  10px 0 0 10px;
+  }
+  div.navbar {
+    justify-content: center;
   }
 }
