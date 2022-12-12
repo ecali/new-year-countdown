@@ -1,5 +1,5 @@
 import { useCowntDownButtons } from "../utils/hooks/buttons";
-import { useWindowResize } from "../utils/hooks/resService";
+import { useWindowResize } from "../utils/hooks/resize";
 
 export const Navbar = (props: { handleDate: (date: Date) => void }) => {
 
