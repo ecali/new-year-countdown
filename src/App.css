@@ -32,6 +32,12 @@ body {
   font-weight: 800;
   letter-spacing: 0.15em;
 }
+.heading h1 span{
+  text-shadow: var(--color-shadow);
+  font-size: 85px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
 .heading h3 {
   font-size: 1.6em;
   letter-spacing: 0.005em;
