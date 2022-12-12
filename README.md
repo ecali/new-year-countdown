@@ -34,6 +34,16 @@ The build is minified and the filenames include the hashes.
 - [x] Add Simple footer
 - [ ] Add custom Countdown (?)
 
+
+## `Updates`
+ - Lun 12 Dic :
+    - In Mobile view show only 4 buttons in navbar for see different countdown 
+        - 2 for and of the year 
+        - 2 for xmas
+    - In Desktop view show 6 buttons in navbar for see different countdown
+        - 3 for and of the year 
+        - 3 for xmas
+
 ## `Author`
 
 Made with love ❤️ and coffe ☕️ by Elvio Moretti
