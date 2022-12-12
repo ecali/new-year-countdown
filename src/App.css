@@ -32,6 +32,12 @@ body {
   font-weight: 800;
   letter-spacing: 0.15em;
 }
+.heading h1 span{
+  text-shadow: var(--color-shadow);
+  font-size: 85px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
 .heading h3 {
   font-size: 1.6em;
   letter-spacing: 0.005em;
@@ -121,7 +127,7 @@ button.button-change {
   border-radius: 10px;
   color: #eee;
   font-size: 20px;
-  font-family: "Cookie", cursive;
+  font-family: 'Josefin Sans', sans-serif;
   position: relative;
   transition: 1s;
   -webkit-tap-highlight-color: transparent;
